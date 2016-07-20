@@ -1,4 +1,5 @@
-require 'rubygems'
+require 'bundler/setup'
+
 ROOT_DIR = File.dirname(__FILE__)
 $LOAD_PATH.unshift("#{ROOT_DIR}/lib")
 $LOAD_PATH.unshift("#{ROOT_DIR}/server")
