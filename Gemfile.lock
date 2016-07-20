@@ -52,8 +52,8 @@ GEM
       rdoc
     jruby-openssl (0.9.4)
       bouncy-castle-java (>= 1.5.0147)
-    json (1.8.1)
-    json (1.8.1-java)
+    json (1.8.3)
+    json (1.8.3-java)
     jwt (0.1.8)
       multi_json (>= 1.5)
     multi_json (1.8.2)
@@ -140,3 +140,6 @@ DEPENDENCIES
   sinatra
   sinatra-contrib
   thor
+
+BUNDLED WITH
+   1.12.5
