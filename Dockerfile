@@ -12,5 +12,6 @@ ADD . $HOME
 RUN bundle install --deployment
 
 RUN chmod +x /service/mirage_server.rb
+EXPOSE 7001
 
 CMD ruby /service/mirage_server.rb
